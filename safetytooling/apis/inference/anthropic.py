@@ -24,6 +24,13 @@ ANTHROPIC_MODELS = {
     "claude-3-haiku-20240307",
     "research-claude-cabernet",
     "claude-3-7-sonnet-20250219",
+    "claude-sonnet-4-5",
+    "claude-sonnet-4-5-20250929",
+    "claude-sonnet-4-6",
+    "claude-haiku-4-5",
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-6",
+    "claude-opus-4-7",
 }
 VISION_MODELS = {
     "claude-3-5-sonnet-20241022",
