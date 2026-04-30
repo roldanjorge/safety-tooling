@@ -25,7 +25,7 @@ def chunk_prompts_for_anthropic(prompts: list[Prompt], chunk_size: int = 100_000
     for prompt, size in zip(prompts, sizes):
         # Check if adding this prompt would exceed either limit
         if (
-            current_size + size > 250 or current_count + 1 > chunk_size
+            current_size + size > 180 or current_count + 1 > chunk_size
         ):  # 256 MB is the max size for Anthropic, but 250 MB is a safe limit
             if current_chunk:
                 chunks.append(current_chunk)
